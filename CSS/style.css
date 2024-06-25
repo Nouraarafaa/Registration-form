@@ -1,0 +1,77 @@
+body{
+    background-image: url('prof2.jpg');
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+.form{
+    width: 900px;
+    height: 530px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    padding: 20px;
+    margin: 100px auto;
+}
+h1{
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+}
+.name{
+    width: 150px;
+    margin-left: 22px;
+}
+input{
+    padding: 10px;
+    margin: 12px;
+    border: none;
+    width: 360px;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    outline: none;
+}
+i{
+    font-size: 12px;
+}
+.fa-user{
+    position: absolute;
+    top: 28px;
+    left: 367px;
+}
+.fa-envelope{
+    position: absolute;
+    top: 90px;
+    left: 367px;
+}
+.fa-lock{
+    position: absolute;
+    top: 150px;
+    left: 367px;
+}
+.two{
+    position: absolute;
+    top: 210px;
+    left: 367px;
+}
+.btn{
+    width: 180px;
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin: 30px 100px;
+    cursor: pointer;
+    position: relative;
+}
+.btn:hover{
+    background-color: #5b5a5a;
+    transition:0.3s;
+}
